@@ -3677,3 +3677,8 @@ canvas {
 	width: 100vw;
 	height: 100vh;
 }
+
+#bio p {
+	color: black;
+	font-size: 1.2em;
+}
