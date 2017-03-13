@@ -750,7 +750,7 @@
 							});
 
 			// CUSTOM
-			$(".menuToggle").on("click", function() {
+			$(".menuToggle, .menuClose").on("click", function() {
 				$("body").toggleClass("menuOpen");
 				return false;
 			});
