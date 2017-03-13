@@ -749,6 +749,16 @@
 
 							});
 
+			// CUSTOM
+			$(".menuToggle").on("click", function() {
+				$("body").toggleClass("menuOpen");
+				return false;
+			});
+
+			$("#menuOverlay").on("click", function() {
+				$("body").removeClass("menuOpen");
+			});
+
 		});
 
 })(jQuery);

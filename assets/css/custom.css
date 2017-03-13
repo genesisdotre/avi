@@ -1,0 +1,56 @@
+canvas {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+}
+
+#bio p {
+	color: black;
+	font-size: 1.2em;
+}
+
+.menuToggle {
+	position: fixed;
+	top: 0;
+	right: 0;
+
+	text-decoration: none;
+	padding: 15px;
+	font-size: 18px;
+	z-index: 200;
+	border: 0;
+}
+.menuToggle img {
+	margin-left: 6px;
+	position: relative;
+	top: 2px;
+}
+
+#menu {
+	position: fixed;
+	background: blue;
+	top: 0;
+	right: -200px;
+	width: 200px;
+	height: 100vh;
+	z-index: 200;
+	transition: right 0.5s ease;
+}
+.menuOpen #menu{
+	right: 0;
+}
+.menuOpen #menuOverlay {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	left: 0;
+	right: 0;
+	background: rgba(100,100,100,0.5);
+	z-index: 200;
+}
+
+@media screen and (max-width: 736px) {
+	#page-wrapper { 
+		margin-top: 58px;
+ 	}
+}  
