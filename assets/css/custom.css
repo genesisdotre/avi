@@ -4,7 +4,7 @@ canvas {
 	height: 100vh;
 }
 
-#bio p {
+#bio, #long {
 	color: black;
 	font-size: 1.2em;
 }
@@ -68,3 +68,9 @@ canvas {
  		position: absolute;
  	}
 }  
+
+
+/* FANCYBOX OVERRIDES */
+.fancybox-slide>* {
+	margin: 44px;
+}
