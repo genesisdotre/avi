@@ -4,7 +4,7 @@ canvas {
 	height: 100vh;
 }
 
-#bio, #long {
+.subpage {
 	color: black;
 	font-size: 1.2em;
 }
@@ -32,7 +32,7 @@ canvas {
 
 #menu {
 	position: fixed;
-	background: blue;
+	background: black;
 	top: 0;
 	right: -200px;
 	width: 200px;
@@ -69,8 +69,23 @@ canvas {
  	}
 }  
 
+code {
+	pointer-events: initial;
+}
+
 
 /* FANCYBOX OVERRIDES */
 .fancybox-slide>* {
 	margin: 44px;
+}
+
+@media screen and (max-width: 736px) {
+	.fancybox-slide>* {
+		margin: 22px;
+	}
+}
+
+
+.fancybox-close-small {
+	color: black !important;
 }
