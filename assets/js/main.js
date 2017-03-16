@@ -315,6 +315,10 @@
 									if (skel.breakpoint('small').active)
 										return;
 
+								// Disable when we have popup
+									if ($(".fancybox-container").is(":visible"))
+										return;
+
 								// Prevent default.
 									event.preventDefault();
 									event.stopPropagation();
