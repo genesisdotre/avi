@@ -763,6 +763,13 @@
 				$("body").removeClass("menuOpen");
 			});
 
+			$("#menu").on("click", "a", function() {
+				var hash = $(this).data("id");
+				$("body").removeClass("menuOpen");
+				$.fancybox.open({src: hash})
+				return false;
+			})
+
 		});
 
 })(jQuery);
