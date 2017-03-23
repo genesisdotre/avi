@@ -1,4 +1,4 @@
-﻿# Code of the website is editable directly here
+# Code of the website is editable directly here
 
 1. Create account on Github
 2. I'll add you as a collaborator
