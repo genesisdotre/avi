@@ -1,91 +1,13 @@
-canvas {
-	position: fixed;
-	width: 100vw;
-	height: 100vh;
+#header .inner p {
+	max-width: 600px;
+	margin: 0 auto;
+    text-align: left;
 }
 
-.subpage {
-	color: black;
-	font-size: 1.2em;
-}
-
-.menuToggle {
+.menu {
 	position: fixed;
 	top: 0;
-	right: 0;
-
-	text-decoration: none;
-	padding: 15px;
-	font-size: 18px;
-	z-index: 200;
-	border: 0;
-}
-.menuToggle img {
-	margin-left: 6px;
-	position: relative;
-	top: 2px;
-}
-.menuClose {
-	position: absolute;
-    right: 10px;
-}
-
-#menu {
-	position: fixed;
+	width: 100vw;
 	background: black;
-	top: 0;
-	right: -200px;
-	width: 200px;
-	height: 100vh;
-	z-index: 200;
-	transition: right 0.5s ease;
-	padding-top: 10px;
-}
-#menu a {
-	font-size: 20px;
-	padding-left: 10px;
-	border: 0;
-}
 
-.menuOpen #menu{
-	right: 0;
-}
-.menuOpen #menuOverlay {
-	position: fixed;
-	height: 100vh;
-	width: 100vw;
-	top: 0;
-	left: 0;
-	background: rgba(100,100,100,0.5);
-	z-index: 200;
-}
-
-@media screen and (max-width: 736px) {
-	#page-wrapper { 
-		margin-top: 58px;
- 	}
- 	.menuToggle {
- 		position: absolute;
- 	}
-}  
-
-code {
-	pointer-events: initial;
-}
-
-
-/* FANCYBOX OVERRIDES */
-.fancybox-slide>* {
-	margin: 44px;
-}
-
-@media screen and (max-width: 736px) {
-	.fancybox-slide>* {
-		margin: 22px;
-	}
-}
-
-
-.fancybox-close-small {
-	color: black !important;
 }
