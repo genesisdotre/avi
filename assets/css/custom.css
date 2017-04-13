@@ -8,6 +8,16 @@
 	position: fixed;
 	top: 0;
 	width: 100vw;
-	background: black;
+	background: #4567b0;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    z-index: 100;
+    color: white;
+    font-size: 1.05em;
+    font-weight: bold;
+}
 
+.menu a {
+	margin-right: 10px;
 }
